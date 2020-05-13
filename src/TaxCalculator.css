@@ -3,12 +3,12 @@
 #wrapper {
     text-align: center;
     padding: 15px;
-    /*background: #e6f7ff;*/
+    background: #e6f7ff;
     /*border: 1px solid black;*/
 
 }
 
-#taxcalculator {
+.taxcalculator {
     width: 1024px;
     text-align: center;
     display: inline-block;
@@ -22,6 +22,7 @@ div label {
     margin-left: 0px;
     text-align: left;
     padding: 10px;
+    font-size: 12px;
 }
 
 div input {
