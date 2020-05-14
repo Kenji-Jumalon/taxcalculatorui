@@ -12,9 +12,10 @@ class TaxCalculator extends Component {
                     <h1>Tax Calculator</h1>
                     <p>Use our simple calculator to quickly estimate your 2020 federal and provincial taxes.</p>
                 </div>
-                <Col><UserInputForm/></Col>
-                <Col><TaxResults /></Col>
-                
+                <Row>
+                    <Col xs={6}><UserInputForm/></Col>
+                    <Col xs={6}><TaxResults /></Col>
+                </Row>
             </div>
         );
     }
